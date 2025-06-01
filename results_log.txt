@@ -1,0 +1,55 @@
+
+Model: xgBoost
+Accuracy: 0.5297055929766139
+Precision: 0.2137326515704894
+Recall: 0.6374727668845316
+F1 Score: 0.3201312910284464
+ROC AUC: 0.6279050385903074
+Confusion Matrix:
+[[11072 10764]
+ [ 1664  2926]]
+----------------------------------------
+
+Model: logistic regression
+Accuracy: 0.8614621963218043
+Precision: 0.8448403860430587
+Recall: 0.24793028322440086
+F1 Score: 0.38335859861883104
+ROC AUC: 0.6279050385903074
+Confusion Matrix:
+[[21627   209]
+ [ 3452  1138]]
+----------------------------------------
+
+Model: logistic regression after one feature engg(220 amt)
+Accuracy: 0.8630893816695678
+Precision: 1.0
+Recall: 0.21176470588235294
+F1 Score: 0.34951456310679613
+ROC AUC: 0.6514091179204375
+Confusion Matrix:
+[[21836     0]
+ [ 3618   972]]
+----------------------------------------
+
+Model: logistic regression after fraud count at terminal ids
+Accuracy: 0.9393400438961629
+Precision: 0.8577245508982035
+Recall: 0.7801742919389978
+F1 Score: 0.8171135196805477
+ROC AUC: 0.9586602903561946
+Confusion Matrix:
+[[21242   594]
+ [ 1009  3581]]
+----------------------------------------
+
+Model: logistic regression after removing resampling
+Accuracy: 0.9917966278192559
+Precision: 0.592741935483871
+Recall: 0.2510138740661686
+F1 Score: 0.352676563202879
+ROC AUC: 0.9600167585426023
+Confusion Matrix:
+[[520754    808]
+ [  3509   1176]]
+----------------------------------------
