@@ -53,3 +53,135 @@ Confusion Matrix:
 [[520754    808]
  [  3509   1176]]
 ----------------------------------------
+
+Model: logistic regression after converting fraud simulants
+Accuracy: 0.9901529129857273
+Precision: 0.6654240447343895
+Recall: 0.3428845846006083
+F1 Score: 0.4525670821888865
+ROC AUC: 0.9530385905234514
+Confusion Matrix:
+[[518923   1077]
+ [  4105   2142]]
+----------------------------------------
+
+Model: logistic regression after converting fraud simulants
+Accuracy: 0.9422039272403627
+Precision: 0.8668802277985407
+Recall: 0.7855184647637478
+F1 Score: 0.8241962774957698
+ROC AUC: 0.960961808694303
+Confusion Matrix:
+[[29005   748]
+ [ 1330  4871]]
+----------------------------------------
+
+Model: logistic regression after adding extra rolling features
+Accuracy: 0.9905120599262324
+Precision: 0.6653883029721956
+Recall: 0.24423719866267815
+F1 Score: 0.3573175440854679
+ROC AUC: 0.9427890916532317
+Confusion Matrix:
+[[519866    698]
+ [  4295   1388]]
+----------------------------------------
+
+Model: logistic regression after adding extra rolling features
+Accuracy: 0.9906944837690286
+Precision: 0.9130966952264382
+Recall: 0.2388346406275012
+F1 Score: 0.37863215328004063
+ROC AUC: 0.7297726068512886
+Confusion Matrix:
+[[519858    142]
+ [  4755   1492]]
+----------------------------------------
+
+Model: logistic regression after adding all the features
+Accuracy: 0.9920683633350879
+Precision: 0.9467140319715808
+Recall: 0.2813654759809959
+F1 Score: 0.4338035811177428
+ROC AUC: 0.7646873286042413
+Confusion Matrix:
+[[520474     90]
+ [  4084   1599]]
+----------------------------------------
+
+Model: logistic regression after adding all the features in XGBOOST
+Accuracy: 0.9920683633350879
+Precision: 0.9467140319715808
+Recall: 0.2813654759809959
+F1 Score: 0.4338035811177428
+ROC AUC: 0.7646873286042413
+Confusion Matrix:
+[[520474     90]
+ [  4084   1599]]
+----------------------------------------
+
+Model: logistic regression after adding all the features in XGBOOST
+Accuracy: 0.9824759096013849
+Precision: 0.3102412868632708
+Recall: 0.5090621150800634
+F1 Score: 0.3855277185501066
+ROC AUC: 0.8620608220226733
+Confusion Matrix:
+[[514132   6432]
+ [  2790   2893]]
+----------------------------------------
+
+Model: logistic regression after adding all the features in XGBOOST for 14 window
+Accuracy: 0.9831828019922204
+Precision: 0.32372258710898366
+Recall: 0.5117015660742565
+F1 Score: 0.396563480158189
+ROC AUC: 0.8670040632900735
+Confusion Matrix:
+[[514489   6075]
+ [  2775   2908]]
+----------------------------------------
+
+Model: logistic regression after adding all the features in XGBOOST for 14 window
+Accuracy: 0.9745005672241362
+Precision: 0.21856810244470315
+Recall: 0.5285940524370931
+F1 Score: 0.30926030781901476
+ROC AUC: 0.8781045480668667
+Confusion Matrix:
+[[509824  10740]
+ [  2679   3004]]
+----------------------------------------
+
+Model: logistic regression after removing 5*with non frauds XGBOOST for 28 window
+Accuracy: 0.5340573677438886
+Precision: 0.24707730986800755
+Recall: 0.9216881594372802
+F1 Score: 0.3896902106567534
+ROC AUC: 0.8462848324155321
+Confusion Matrix:
+[[10182 11979]
+ [  334  3931]]
+----------------------------------------
+
+Model: logistic regression after removing 5*with non frauds XGBOOST for 28 window
+Accuracy: 0.5592219783546507
+Precision: 0.24486833920796186
+Recall: 0.830715123094959
+F1 Score: 0.378242767161311
+ROC AUC: 0.7853477690944766
+Confusion Matrix:
+[[11235 10926]
+ [  722  3543]]
+----------------------------------------
+
+Model: randam forest 
+Accuracy: 0.8869905778181405
+Precision: 0.9315068493150684
+Recall: 0.3474114441416894
+F1 Score: 0.5060778963036467
+ROC AUC: 0.8565677977111121
+Confusion Matrix:
+[[14607    75]
+ [ 1916  1020]]
+----------------------------------------

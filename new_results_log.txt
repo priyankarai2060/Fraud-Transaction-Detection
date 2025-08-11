@@ -1,0 +1,44 @@
+
+Model: randam forest simple 
+Accuracy: 1.0
+Precision: 1.0
+Recall: 1.0
+F1 Score: 1.0
+ROC AUC: 1.0
+Confusion Matrix:
+[[347895      0]
+ [     0   2936]]
+----------------------------------------
+
+Model: randam forest simple 
+Accuracy: 0.9935239474276788
+Precision: 0.9984984984984985
+Recall: 0.22649863760217984
+F1 Score: 0.36923931149361466
+ROC AUC: 0.9367419937809698
+Confusion Matrix:
+[[347894      1]
+ [  2271    665]]
+----------------------------------------
+
+Model: randam forest simple added fraud terminal recent
+Accuracy: 0.9935239474276788
+Precision: 0.9984984984984985
+Recall: 0.22649863760217984
+F1 Score: 0.36923931149361466
+ROC AUC: 0.9350921406725925
+Confusion Matrix:
+[[347894      1]
+ [  2271    665]]
+----------------------------------------
+
+Model: randam forest simple after undersampling
+Accuracy: 0.8733681462140992
+Precision: 0.9272727272727272
+Recall: 0.260558583106267
+F1 Score: 0.40680670034565275
+ROC AUC: 0.8305722437379994
+Confusion Matrix:
+[[14622    60]
+ [ 2171   765]]
+----------------------------------------
